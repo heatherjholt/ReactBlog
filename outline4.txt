@@ -1,0 +1,46 @@
+Top
+- H1: Re:Act B-log
+
+Section 1: Navigation
+- Re:Act logo and home link 
+- Home link (/)
+- Blog link (/blog)
+- New Post link (/new-post)
+
+Page 1: Home
+- Welcome message and instructions
+- Short description of the application
+- Button access b-logs 
+
+Page 2: Blog
+- Heading: Recent Memories
+- List of blog posts
+- Shows title name message and timestamp 
+- Button delete post for each individual post
+
+Page 3: New Post
+- Heading: Memory recall 
+- Validation/error message if blank 
+- Title
+- Name
+- Messsage
+- Button submit
+
+Page 4: 404 Error 
+- Heading: 404 - System Error
+- Link: Return to Baseline home
+
+Bottom
+- Footer 
+
+---------------------------------------------------------
+REFLECTION (STAGE 3)
+---------------------------------------------------------
+What changed between your Stage 1 outline and your final implementation? Why did you change it?
+I first used a plain 404 page message. I changed it to use <Link> so users could get back to the home page if they hit a broken URL.
+
+What was the hardest part to implement correctly, and why?
+The hardest part was managing the global state. Because both the Blog pageand the New Post page needed access to the blog posts. Using `setPosts` function and using `.filter()` to delete posts without changing the original array took some work.
+
+Describe one mistake you made and how you fixed it.
+The delete button was not initially working. I did not have handleDelete() assigned correctly for the button function. I also forgot to add validation for empty boxes at first. 
