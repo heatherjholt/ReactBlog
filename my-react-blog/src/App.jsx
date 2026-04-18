@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./Navbar"; 
 import Home from "./pages/Home";
 import Blog from "./pages/Blog";
@@ -18,7 +18,7 @@ function App() {
   ]);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="app-container">
     <Navbar />
     <div className="main-content">
@@ -39,7 +39,7 @@ function App() {
             <p>[[ Developed by Heather Holt ]]</p>
         </footer>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

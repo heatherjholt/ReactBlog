@@ -1,3 +1,8 @@
+Heather Holt
+REACT Blog Assignment
+CSCI 4410
+Dr. Yang
+
 Top
 - H1: Re:Act B-log
 
@@ -33,9 +38,8 @@ Page 4: 404 Error
 Bottom
 - Footer 
 
----------------------------------------------------------
-REFLECTION (STAGE 3)
----------------------------------------------------------
+REFLECTION 
+
 What changed between your Stage 1 outline and your final implementation? Why did you change it?
 I first used a plain 404 page message. I changed it to use <Link> so users could get back to the home page if they hit a broken URL.
 

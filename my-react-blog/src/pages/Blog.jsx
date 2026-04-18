@@ -9,7 +9,7 @@ function Blog({ posts, setPosts }) {
     // something if all posts are deleted, page refresh shows default message
     let infoToDisplay;
     if (posts.length === 0) {
-        infoToDisplay = <p>Use the NEW POST button to post.</p>;
+        infoToDisplay = <p>Use the NEW MEMORY button to post.</p>;
     } else {
         // show all posts and info, and a delete button 
         infoToDisplay = (
