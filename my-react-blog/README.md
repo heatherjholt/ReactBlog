@@ -1,9 +1,5 @@
 # Re:Act Blog Application 
 
-**[LIVE DEMO](https://heatherjholt.github.io/ReactBlog/)**
-
-https://heatherjholt.github.io/ReactBlog/
-
 **Re:Act**, a dynamic, single-page blog application built with React and React Router.
 
 ## Features
