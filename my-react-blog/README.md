@@ -2,6 +2,8 @@
 
 **Re:Act**, a dynamic, single-page blog application built with React and React Router.
 
+[Live Demo](https://php-word-bank-quiz.wasmer.app/index.php)
+
 ## Features
 
 * **Dynamic State Management:** Add and delete blog posts in real-time using React's `useState` hook.
